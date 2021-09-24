@@ -1,6 +1,7 @@
-<div class="item">  
-    <p *ngFor='let task of tasks'>userId: {{task.userId}}</p>
-    <p *ngFor='let task of tasks'>id: {{task.id}}</p>
-    <p *ngFor='let task of tasks'>title: {{task.title}}</p>
-    <p *ngFor='let task of tasks'>body: {{task.body}}</p>
+<div class="item" *ngFor='let task of tasks'>
+    <p>userId: {{task.userId}}</p>
+    <p> id: {{task.id}}</p>
+    <p> title: {{task.title}}</p>
+    <p> body: {{task.body}}</p>
+    
 </div>
